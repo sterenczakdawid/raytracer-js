@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #333;
+}
+
+canvas {
+  border: 5px solid black;
+}
+
+
+#info {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-size: 24px;
+	font-style: italic;
+	color: #fff;
+	margin: 8px;
+}
